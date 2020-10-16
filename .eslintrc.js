@@ -14,6 +14,7 @@ module.exports = {
   // add your custom rules here
   // it is base on https://github.com/vuejs/eslint-config-vue
   rules: {
+    'vue/require-default-prop': 2,
     'vue/experimental-script-setup-vars': 1,
     'vue/no-v-model-argument': 1,
     'vue/no-multiple-template-root': 1,

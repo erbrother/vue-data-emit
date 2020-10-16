@@ -20,4 +20,6 @@ export default function(Vue) {
 
     bc(this.$children)
   }
+
+  Vue.prototype.$eventBus = new Vue()
 }

@@ -9,7 +9,7 @@
 <script>
 // @ is an alias to /src
 import Mother from '@/components/class1/Mother'
-import GrandPa from '@/components/class2/GrandPa'
+import GrandPa from '@/components/class6/GrandPa'
 export default {
   name: 'Home',
   components: {
