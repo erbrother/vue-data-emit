@@ -14,6 +14,13 @@ module.exports = {
   // add your custom rules here
   // it is base on https://github.com/vuejs/eslint-config-vue
   rules: {
+    'vue/experimental-script-setup-vars': 1,
+    'vue/no-v-model-argument': 1,
+    'vue/no-multiple-template-root': 1,
+    'vue/no-dupe-v-else-if': 1,
+    'vue/custom-event-name-casing': 1,
+    'vue/no-arrow-functions-in-watch': 1,
+    'vue/no-custom-modifiers-on-v-model': 1,
     'vue/one-component-per-file': 0,
     'vue/max-attributes-per-line': [2, {
       'singleline': 10,
